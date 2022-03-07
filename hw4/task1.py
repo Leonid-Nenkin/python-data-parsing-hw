@@ -20,11 +20,6 @@ for item in items:
     news = item.xpath(".///div[@class='card-mini__title']/text()")
     date = item.xpath(".///div[@class='card-mini__date']/text()")
 
-    # название источника;
-    # наименование новости;
-    # ссылку на новость;
-    # дата публикации.
-
     item_info['link'] = link
     item_info['source'] = source
     item_info['news'] = news
